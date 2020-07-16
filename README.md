@@ -10,6 +10,6 @@ Also, the user can add new rows to expand the matrix table.
 Demo: [Click here!](https://htmlpreview.github.io/?https://github.com/spinsauce/table-matrix/blob/master/index.html)
 
 ### TODO: 
-- [] make it media responsive
-- [] improve code
-- [] cleanup css
+- [ ] make it media responsive
+- [ ] improve code
+- [ ] cleanup css

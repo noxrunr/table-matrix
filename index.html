@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>DOM Table JS</title>
+    <script src='script.js'></script>
+    <link rel='stylesheet' href='style.css'/>
+</head>
+<body>
+
+    
+    <div class='center'>
+        
+        <button onclick='appendNewRow()'>&#x254B;</button>
+
+        <h1>DOM Table Matrix</h1>
+        
+        <table id='dom-table'>
+            <thead>
+                <tr class='row'>
+                    <th class='cell head'>I</th>
+                    <th class='cell head'>II</th>
+                    <th class='cell head'>III</th>
+                    <th class='cell head'>IV</th>
+                    <th class='cell head'>V</th>
+                </tr>
+            </thead>
+    
+            <tbody>
+                <tr class='row'>
+                    <td class='cell'>
+                        <input oninput='calculateSum(this)' type='number'/>
+                    </td>
+                    <td class='cell'>
+                        <input oninput='calculateSum(this)' type='number'/>
+                    </td>
+                    <td class='cell'>
+                        <input oninput='calculateSum(this)' type='number'/>
+                    </td>
+                    <td class='cell'>
+                        <input oninput='calculateSum(this)' type='number'/>
+                    </td>
+                    <td class='cell'>
+                        <input oninput='calculateSum(this)' type='number'/>
+                    </td>
+                    <td class='cell sum'>0</td>
+                </tr>
+            </tbody>
+    
+            <tfoot>
+                <tr>
+                    <td class='cell sum'>0</td>
+                    <td class='cell sum'>0</td>
+                    <td class='cell sum'>0</td>
+                    <td class='cell sum'>0</td>
+                    <td class='cell sum'>0</td>
+                </tr>
+            </tfoot>
+    </div>
+    </table>
+
+</body>
+</html>

@@ -1,4 +1,4 @@
-# table-matrix
+# DOM Table Matrix
 
 Practicing Javascript DOM manipulation, logic, and CSS.
 

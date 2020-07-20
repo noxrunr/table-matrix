@@ -10,6 +10,7 @@ Also, the user can add new rows to expand the matrix table.
 Demo: [Click here!](https://htmlpreview.github.io/?https://github.com/spinsauce/table-matrix/blob/master/index.html)
 
 ### TODO: 
+- [ ] Add aditional math operations aside of sum of numbers
 - [ ] Make it media responsive
 - [ ] Improve code
 - [ ] Cleanup CSS
